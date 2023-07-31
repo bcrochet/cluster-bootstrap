@@ -1,0 +1,8 @@
+---
+- name: Debug ACM-AAP
+  hosts: localhost
+  tasks:
+    - name: Print what's out there
+      ansible.builtin.debug:
+        var: ansible_facts
+
